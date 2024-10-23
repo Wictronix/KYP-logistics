@@ -1,0 +1,64 @@
+:root {
+    --orange: #ff5e14;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+/**************************
+        Gallery CSS 
+**************************/
+
+.gallery-area {
+    margin: 2rem 1rem 0 1rem;
+}
+
+.gallery-area .section-title h1{
+    color: var(--orange);
+    margin-bottom: -2rem;
+}
+
+.gallery-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-slider .gallery-item {
+    border: 3px solid var(--orange);
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.gallery-slider .gallery-item:hover {
+    box-shadow: 5px 5px 12px #05103b;
+    border: 2px solid #05103b;
+}
+
+.gallery-slider .gallery-item a img {
+    height: 15rem;
+    width: 20rem;
+}
+
+.gallery-slider .gallery-item a p {
+    color: white;
+    text-align: center;
+    background: var(--orange);
+    border: 3px solid var(--orange);
+}
+
+
+
